@@ -55,6 +55,7 @@ const Stack = ()=>{
                             <img  src={items.icon} alt={items.name} />
 
                         </div>
+                        
                     ))
                 }
             </div>

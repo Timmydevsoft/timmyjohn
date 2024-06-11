@@ -4,42 +4,59 @@ import css from "../assets/images/css.png"
 import javascript from "../assets/images/javascript.png"
 import reactIcon from "../assets/images/React.jpeg"
 import cordova from "../assets/images/cordova.jpeg"
+import tailwind from "../assets/images/tailwind.png"
+import typescript from "../assets/images/typescript.png"
 import "../assets/CSS/Stack.css"
 
 
 const Stack = ()=>{
+
+    const stack = [
+        {
+            name: "HTML",
+            icon:  html
+        },
+        {
+            name: "CSS",
+            icon:  css
+        },
+        {
+            name: "javascript",
+            icon:  javascript
+        },
+        {
+            name: "REACT",
+            icon: reactIcon
+        },
+        {
+            name: "Typescript",
+            icon: typescript
+        },
+        {
+            name: "Tailwind CSS",
+            icon: tailwind
+        },
+        {
+            name: "CORDOVA",
+            icon: cordova
+        }
+        
+    ]
     return(
         <div className="stack-container">
             <h2 className="stack-title">/Core stack</h2>
 
             <div className="skill-list-container">
 
-                <div className="Skill-container">
-                    <span>HTML</span>
-                    <img  src={html} alt="HTML ICON" />
+                {
+                    stack.map((items, index)=>(
+                        <div key={index} className="Skill-container">
+                            <span>{items.name}</span>
+                            <img  src={items.icon} alt={items.name} />
 
-                </div>
-
-                <div className="Skill-container">
-                    <span>CSS</span>
-                    <img src={css} alt="CSS ICON" />
-                </div>
-
-                <div className="Skill-container">
-                    <span>javaScript</span>
-                    <img src={javascript} alt="javaScript ICON" />
-                </div>
-
-                <div className="Skill-container">
-                    <span>REACT</span>
-                    <img src={reactIcon} alt="REACT ICON" />
-                </div>
-
-                <div className="Skill-container">
-                    <span>CORDOVA</span>
-                    <img src={cordova} alt="Cordova ICON" />
-                </div>
-
+                        </div>
+                    ))
+                }
             </div>
 
         </div>

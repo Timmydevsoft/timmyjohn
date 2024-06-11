@@ -42,7 +42,7 @@
 @media(max-width: 420px){
 
     .skill-list-container{
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: flex-start;
         gap: 1.125rem;
     }

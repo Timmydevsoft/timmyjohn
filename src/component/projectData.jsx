@@ -14,11 +14,40 @@ import devday from "../assets/images/Task 1.png"
 import taskonemole from "../assets/images/300mobile.png"
 import stepform from "../assets/images/multistepform.jpg"
 import mobilestepform from "../assets/images/mobile-design-step-1.jpg"
+import desktopSneaker from "../assets/images/sneakers-desk.jpg"
+import mobileSneaker from "../assets/images/mobileSneaker.jpg"
+
 
 export default[
     {
+        technology: ["REACT", "TYPESCRIPT", "CSS"],
+        num: 800,
+        name: "Sneaker's ecommerce page",
+        image: desktopSneaker,
+        png: mobileSneaker,
+        livesite: "https://sneakers-puce.vercel.app/",
+        code: "https://github.com/Timmydevsoft/sneaker"
+    },
+    {
+        num:500,
+        image: country,
+        png: mobilecountry,
+        name: "Rest countries API",
+        technology: ["HTML, CSS, REACT"],
+        livesite: "https://rest-countries-with-color-switcher.vercel.app/",
+        code: "https://github.com/Timmydevsoft/rest-countries-with-color-switcher"
+     },
+     {
+        num:700,
+        image: stepform,
+        png: mobilestepform,
+        name: "Multi-step from",
+        technology: ["HTML, CSS, JAVASCRIPT"],
+        livesite: "https://multistep-form-iota-nine.vercel.app/",
+        code: "https://github.com/Timmydevsoft/multistep-form"
+     },
+    {
         num: 0,
-        id: "01",
         image: bookmark,
         png: bookmobile,
         name: "Bookmark landing page",
@@ -29,7 +58,6 @@ export default[
 
     {
         num: 100,
-        id: "02",
         image: tube,
         png: tubemobile,
         name: "Tube mentorship page",
@@ -40,7 +68,6 @@ export default[
 
     {
         num: 200,
-        id: "03",
         image: space,
         png: spacemobile,
         name: "Space tourism website",
@@ -51,7 +78,6 @@ export default[
 
     {
         num: 300,
-        id: "04",
         image: calculator,
         png: calcmobile,
         name: "Calculator app",
@@ -62,7 +88,6 @@ export default[
 
     {
         num: 400,
-        id: "05",
         image: manage,
         png: managemobile,
         name: "Manage landing page",
@@ -70,37 +95,15 @@ export default[
         livesite: "https://manage-landing-page-delta-blush.vercel.app/",
         code: "https://github.com/Timmydevsoft/manage-landing-page"
     },
-     {
-        num:500,
-        id: "06",
-        image: country,
-        png: mobilecountry,
-        name: "Rest countries API",
-        technology: ["HTML, CSS, REACT"],
-        livesite: "https://rest-countries-with-color-switcher.vercel.app/",
-        code: "https://github.com/Timmydevsoft/rest-countries-with-color-switcher"
-     },
-
+     
      {
         num:600,
-        id: "07",
         image: devday, 
         png:  taskonemole,
         name: "300 dev days task 1",
         technology: ["HTML, CSS, JAVASCRIPT"],
         livesite: "https://300devdays-task-1.vercel.app/",
         code: "https://github.com/Timmydevsoft/300devdays-task-1"
-     },
-
-     {
-        num:700,
-        id: "08",
-        image: stepform,
-        png: mobilestepform,
-        name: "Multi-step from",
-        technology: ["HTML, CSS, JAVASCRIPT"],
-        livesite: "https://multistep-form-iota-nine.vercel.app/",
-        code: "https://github.com/Timmydevsoft/multistep-form"
      }
 
 ]

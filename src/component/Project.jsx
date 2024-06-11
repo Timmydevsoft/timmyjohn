@@ -26,7 +26,7 @@ const Project = () => {
                 {data.map((item, index) => (
                     <div
                         className="folio"
-                        key={item.id}
+                        key={index}
                     >
                         <div className="top-container">
                             <h4 className="project-name">{item.name}</h4>

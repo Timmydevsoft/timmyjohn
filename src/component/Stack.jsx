@@ -35,12 +35,7 @@ const Stack = ()=>{
         {
             name: "Tailwind CSS",
             icon: tailwind
-        },
-        {
-            name: "CORDOVA",
-            icon: cordova
         }
-        
     ]
     return(
         <div className="stack-container">

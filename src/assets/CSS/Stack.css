@@ -39,11 +39,24 @@
     line-height: 73.6px;
 }
 
-@media(max-width: 420px){
+@media(max-width: 678px){
 
     .skill-list-container{
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-content: flex-start;
-        gap: 1.125rem;
+        gap: 1.5rem;
+    }
+    .Skill-container{
+  
+        gap: 1rem;
+    }
+
+    .Skill-container img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .stack-title{
+        font-size: 1.5rem;
     }
 }

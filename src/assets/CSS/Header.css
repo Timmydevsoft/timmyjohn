@@ -96,7 +96,7 @@ nav{
 .hamburger-container{
     display: none;
 }
-@media (max-width: 420px){
+@media (max-width: 678px){
 
     .header{
         height: 5rem;

@@ -48,7 +48,7 @@
     color: rgba(255, 255, 255, 1);
 }
 
-@media(max-width: 420px){
+@media(max-width: 678px){
     .interest-conatiner{
         margin-bottom: 2rem;
     }

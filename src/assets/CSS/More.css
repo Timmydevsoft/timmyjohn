@@ -52,7 +52,7 @@
     color: rgba(182, 22, 168, 1);
 }
 
-@media(max-width: 420px){
+@media(max-width: 678px){
 
     .detail-aboutme-container{
         flex-direction: column;

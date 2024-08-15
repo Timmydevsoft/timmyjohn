@@ -16,6 +16,8 @@ import stepform from "../assets/images/multistepform.jpg"
 import mobilestepform from "../assets/images/mobile-design-step-1.jpg"
 import desktopSneaker from "../assets/images/sneakers-desk.jpg"
 import mobileSneaker from "../assets/images/mobileSneaker.jpg"
+import productd from "../assets/images/productlistd.jpg"
+import productm from "../assets/images/productmobile.jpg"
 
 
 export default[
@@ -27,6 +29,15 @@ export default[
         png: mobileSneaker,
         livesite: "https://sneakers-puce.vercel.app/",
         code: "https://github.com/Timmydevsoft/sneaker"
+    },
+    {
+        technology: ["REACT", "TYPESCRIPT", "TAILWIND"],
+        num: 800,
+        name: "Products List ecommerce Page",
+        image: productd,
+        png: productm,
+        livesite: "https://products-lovat-ten.vercel.app/",
+        code: "https://github.com/Timmydevsoft/products"
     },
     {
         num:500,
